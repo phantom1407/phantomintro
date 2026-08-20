@@ -6,5 +6,5 @@ st.title("HOLA! mi nombre es Maleja")
 image = Image.open ('cat.jpg')
 st.image(image, caption='Interfaces multimodales y un gatito')
 
-texto=st.text_input('buenas buenas','este es mi texto')
+texto=st.text_input('buenas buenas','awawawawawa')
 st.write('el texto escrito es ', texto)
