@@ -28,6 +28,6 @@ with col2:
 
 st.subheader('esto es un botón, presionalo')
 if st.button('presioname :)'):
-  st.write("gracias por presionar jiji')
+  st.write('gracias por presionar jiji')
            else:
   st.write('no has presionado aún')
