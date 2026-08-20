@@ -18,7 +18,7 @@ with col1:
     st.write('niceee')
 
 with col2:
-  modo=st.subheader('que modalidad es la principal en esta interfaz?', ('visual', 'auditiva', 'tactil'))
+  modo=st.radio('que modalidad es la principal en esta interfaz?', ('visual', 'auditiva', 'tactil'))
   if modo== 'visual':
     st.write('la vista es fundamental en esta interfaz')
   if modo== 'auditiva':
